@@ -1,0 +1,20 @@
+{
+  "name": "finra.org_equity_short_interest_downloader",
+  "version": "1.0.0",
+  "description": "downloads csv for equity_short_interest",
+  "main": "src/handlers/local.js",
+  "scripts": {
+    "start": "node src/handlers/local.js"
+  },
+  "author": "praveen",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^127.0.0",
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^23.2.1"
+  }
+}

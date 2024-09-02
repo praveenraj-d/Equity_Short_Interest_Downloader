@@ -1,0 +1,9 @@
+#cache-folder
+cache
+
+# download folder
+data
+
+#nodemod
+node_modules
+
