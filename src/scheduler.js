@@ -17,12 +17,12 @@ function runLocalScript() {
   });
 }
 
-cron.schedule('0 8 15,28,30 * *', () => {
+cron.schedule('0 8 2,15,28,30 * *', () => {
   console.log('Running local.js at 8 AM...');
   runLocalScript();
 });
 
-cron.schedule('0 20 15,28,30 * *', () => {
+cron.schedule('0 20 2,15,28,30 * *', () => {
   console.log('Running local.js at 8 PM...');
   runLocalScript();
 });
