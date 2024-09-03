@@ -18,11 +18,13 @@ function runLocalScript() {
 }
 
 cron.schedule('0 8 2,15,28,30 * *', () => {
-  console.log('Running local.js at 8 AM...');
+  console.log('Running cron_job for Equity_Short_Interest at 8 AM...');
   runLocalScript();
 });
 
 cron.schedule('0 20 2,15,28,30 * *', () => {
-  console.log('Running local.js at 8 PM...');
+  console.log('Running cron_job for Equity_Short_Interest at 8 PM...');
   runLocalScript();
 });
+
+console.log('running Scheduler for equity_short_interest...');
