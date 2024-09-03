@@ -4,12 +4,14 @@
   "description": "downloads csv for equity_short_interest",
   "main": "src/handlers/local.js",
   "scripts": {
-    "start": "node src/handlers/local.js"
+    "start": "node src/handlers/local.js",
+    "scheduler": "node src/scheduler.js"
   },
   "author": "praveen",
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.10",
+    "node-cron": "^3.0.3",
     "papaparse": "^5.4.1"
   },
   "devDependencies": {
